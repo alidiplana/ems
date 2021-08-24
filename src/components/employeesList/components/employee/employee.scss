@@ -1,0 +1,34 @@
+.employee {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: hsl(0, 0%, 85%);
+  width: 30%;
+  p {
+    margin: 5px;
+  }
+  .name {
+    color: hsl(0, 0%, 10%);
+    font-weight: bold;
+  }
+  .email {
+    color: hsl(0, 0%, 50%);
+    font-size: 15px;
+  }
+  .doj {
+    color: hsl(0, 0%, 20%);
+    font-size: 15px;
+  }
+  .designation {
+    color: hsl(0, 0%, 20%);
+    font-weight: bold;
+  }
+}
+
+.employee:hover {
+  background: hsl(0, 0%, 80%);
+  cursor: pointer;
+}

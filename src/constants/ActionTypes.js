@@ -1,0 +1,6 @@
+export const ActionTypes = {
+  ADD_EMPLOYEE: "ADD_EMPLOYEE",
+  ADD_PROJECT: "ADD_PROJECT",
+  ADD_MANAGER: "ADD_MANAGER",
+  ADD_MEMBER: "ADD_MEMBER",
+};

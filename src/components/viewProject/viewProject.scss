@@ -1,0 +1,86 @@
+.view-project {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10%;
+  padding: 5%;
+  box-shadow: 1px 1px 10px 1px hsl(0, 0%, 50%);
+  background: hsla(0, 0%, 90%, 0.99);
+  justify-items: center;
+  .view-project__details {
+    display: flex;
+    .view-profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid white;
+    }
+    .view-profile__items {
+      margin-left: 10%;
+      .view-profile__item {
+        width: 400px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        label {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .progress-bar {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    .progress-bar__line {
+      width: 90%;
+    }
+  }
+
+  .project-manager {
+    display: flex;
+    margin-top: 10px;
+    .content {
+      margin-left: 10px;
+      font-weight: bold;
+      color: green;
+    }
+    .content:hover,
+    .content:active {
+      cursor: pointer;
+      color: hsl(120, 100%, 15%);
+    }
+  }
+
+  .manager-button {
+    display: inline;
+    width: 180px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background: green;
+    border: unset;
+    color: white;
+    padding: 10px 18px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+
+  .manager-button:hover {
+    cursor: pointer;
+    background: hsl(120, 100%, 15%);
+  }
+
+  .members {
+    display: flex;
+    gap: 10px;
+    color: #2196f3;
+    font-weight: bold;
+    align-items: flex-start;
+    .content:hover,
+    .content:active {
+      color: hsl(207, 90%, 44%);
+      cursor: pointer;
+    }
+  }
+}

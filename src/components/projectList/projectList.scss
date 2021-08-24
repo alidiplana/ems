@@ -1,0 +1,16 @@
+.projects {
+  margin: 0 10%;
+  .button {
+    margin-top: 10px;
+    background: green;
+    border: unset;
+    color: white;
+    padding: 10px 18px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  .button:hover{
+      cursor: pointer;
+  }
+}

@@ -1,0 +1,30 @@
+.view-profile {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10%;
+  padding: 5%;
+  box-shadow: 1px 1px 10px 1px hsl(0, 0%, 50%);
+  background: hsla(0, 0%, 90%, 0.99);
+  justify-items: center;
+  .view-profile__details {
+    display: flex;
+    .view-profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid white;
+    }
+    .view-profile__items {
+      margin-left: 10%;
+      .view-profile__item {
+        width: 400px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        label {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

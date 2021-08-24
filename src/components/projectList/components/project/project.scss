@@ -1,0 +1,23 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: hsl(0, 0%, 85%);
+  margin: 10px 0px;
+  border-radius: 5px;
+  .table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    .name {
+      text-decoration: none;
+    }
+  }
+}
+
+.project:hover {
+  background: hsl(0, 0%, 80%);
+  cursor: pointer;
+}

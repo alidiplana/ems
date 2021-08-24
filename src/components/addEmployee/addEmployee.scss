@@ -1,0 +1,50 @@
+.add-employee {
+  box-sizing: border-box;
+  .add {
+    margin-top: 10px;
+    .add-employee_form {
+      margin-top: 20px;
+      padding: 5%;
+      background: hsla(0, 0%, 90%, 0.99);
+      margin: 0 10%;
+      box-shadow: 1px 1px 10px 1px hsl(0, 0%, 50%);
+      background: hsla(0, 0%, 90%, 0.99);
+      label {
+        margin-top: 10px;
+      }
+      input {
+        margin-bottom: 10px;
+      }
+      button {
+        width: 150px;
+        display: inline;
+        font-size: 14px;
+        font-weight: bold;
+        background: green;
+        border-radius: 5px;
+        color: white;
+        border: unset;
+        padding: 10px 20px;
+        margin-top: 20px;
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+
+      .add-employee__item {
+        width: 400px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        label {
+          font-weight: bold;
+        }
+      }
+
+      .add-employee {
+        width: fit-content;
+      }
+    }
+  }
+}
